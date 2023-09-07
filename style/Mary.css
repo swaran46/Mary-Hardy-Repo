@@ -14,7 +14,7 @@ body{
     font-weight: 700;
 }
 .section-description{
-    color: , #757575;
+    color: #757575;
 text-align: center;
 font-family: Open Sans;
 font-size: 18px;
@@ -113,7 +113,10 @@ margin-bottom: 20px
  }
 
  /* main section styles */
-  
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
  /* about section styles */
  .about{
     padding: 130px;
@@ -121,3 +124,11 @@ margin-bottom: 20px
     background: #FFF8F3;
     margin: 130px 0;
  }
+.about-info-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
